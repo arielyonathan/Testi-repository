@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-image: url(https://img.magnific.com/free-photo/abstract-grayscale-layered-wavy-shapes_779267-3587.jpg?semt=ais_hybrid&w=740&q=80);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #172b3a;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+    color: #ffffff;
+    -webkit-text-stroke: px rgb(0, 0, 0);
+
+    text-shadow: 0 0 10px black;
+
+}
+
+
+.container {
+    width: 90%;
+    max-width: 650px;
+
+    margin: 40px auto;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 60px;
+}
+
+
+.form-group {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 40px;
+    text-align: middle;
+}
+
+
+.form-group label {
+    width: 120px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.form-group input {
+    flex: 1;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+
+    height: 35px;
+    padding: 5px 10px;
+
+    border: 1px solid #aaa;
+    border-radius: 4px;
+
+    background-color: #fffaf5;
+    font-size: 18px;
+
+    box-sizing: border-box;
+}
+
+
+.perasaan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 13px;
+    margin-top: 10px;
+}
+
+.perasaan label {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.perasaan select {
+    padding: 4px 11px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+
+    border-radius: 5px;
+    border: 1px solid black;
+    text-shadow: 0 0 5px black;
+    transition: 0.2s;
+}
+
+.tombol-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: bolder;
+    gap: 10px;
+    margin-top: 100px;
+}
+
+.tombol-area label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.tombol-area button {
+    padding: 3px 10px;
+    font-weight: bolder;
+
+    background-color: #ffffff;
+    color: #172b3a;
+
+    border: 2px solid #172b3a;
+    border-radius: 6px;
+
+    font-size: 22px;
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.perasaan select:hover {
+    background-color: grey;
+    color: white;
+    text-shadow: 0 0 10px white;
+}
+
+.tombol-area button:hover {
+    background-color: grey;
+    color: white;
+}
